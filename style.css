@@ -1,0 +1,184 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+/* Header */
+.header {
+    background-color: #000;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-size: cover;
+    background-position: center;
+    background: rgb(0,218,227);
+background: linear-gradient(0deg, rgba(0,218,227,1) 0%, rgb(80, 123, 125) 38%, rgba(129,249,255,1) 56%, rgba(255,192,192,1) 99%);
+    
+    
+}
+
+.logo {
+    font-size: 2em;
+    margin-right: auto;
+}
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('pic/Hacker\ Background\ 1.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-size: 65px;
+    text-shadow: aqua  5px 5px 5px ;
+    color: rgb(255, 255, 255);
+     /* height: 100px;
+     
+     border-right: 1px solid aqua;
+     
+    
+    overflow: hidden;
+    cursor: pointer;
+    width: 100px;
+    animation: typing-text 8s steps(40) forwards ; */
+}
+
+
+
+
+.hero-description {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-shadow: black 3px 3px 3px;
+    color: rgb(255, 255, 255);
+     height: 100px;
+     
+     border-right: 1px solid white;
+     
+    
+    overflow: hidden;
+    cursor: pointer;
+    height: 100px;
+    animation: typing-text 10s steps(40) forwards infinite
+ 
+    
+     
+}
+
+@keyframes typing-text {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Services section */
+.services {
+    padding: 80px 0;
+    border-top: 10px solid grey;
+}
+
+.section-title {
+   
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color:white;
+    text-shadow: white 3px 2px 20px ;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    background: rgb(0,218,227);
+background: linear-gradient(0deg, rgba(0,218,227,1) 0%, rgba(28,246,254,1) 38%, rgba(129,249,255,1) 56%, rgba(255,192,192,1) 99%);
+}
+.service-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.all{
+    background: rgb(3,245,255);
+background: linear-gradient(90deg, rgb(0, 110, 114) 0%, rgb(1, 191, 198) 33%, rgba(176,251,255,1) 66%, rgba(255,255,255,1) 100%);}
+
+.service-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: black  3px 3px 3px;
+}
+
+.service-description {
+    font-size: 1.2em;
+    text-shadow: green  3px 3px 3px;
+}
+
+/* About section */
+.about {
+    padding: 100px 0;
+    border-top: 10px solid grey;
+   
+}
+
+/* Footer */
+.footer{
+    border-top: 10px solid grey;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(3,245,255);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 56, 58) 33%, rgb(22, 255, 255) 66%, rgba(255,255,255,1) 100%);}
+
+   
+
